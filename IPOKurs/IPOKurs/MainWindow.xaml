@@ -1,0 +1,9 @@
+﻿<Window x:Class="IPOKurs.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Учет рабочего времени" Height="200" Width="400">
+    <Grid Margin="0,143,159,0">
+        <Button Content="Приложить карту" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Margin="141,-15,0,0"/>
+        <Button Content="Просмотреть данные о сотруднике" Click="ViewDataButton_Click" Margin="149,-103,-127,103"/>
+    </Grid>
+</Window>
